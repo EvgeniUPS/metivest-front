@@ -1,0 +1,231 @@
+.footer {
+}
+
+.footer {
+  background-color: #2b2d42;
+  width: 100%;
+  color: #fff;
+
+  // .footer__main
+  &__main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  // .footer__info
+  &__info {
+  }
+  // .footer__catalog
+  &__catalog {
+  }
+  // .footer__news
+  &__news {
+  }
+  // .footer__storage
+  &__storage {
+  }
+  // .footer__bottom
+  &__bottom {
+  }
+}
+
+.info-footer {
+  flex: 0 1 15%;
+  // .info-footer__logo
+  &__logo {
+    margin-bottom: 25px;
+  }
+  // .info-footer__text
+  &__text {
+    // font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* White */
+
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  // .info-footer__socials
+  &__socials {
+    a {
+      margin-right: 20px;
+    }
+  }
+}
+.catalog-footer {
+  flex: 0 1 25%;
+  // .catalog-footer__title
+  &__title {
+    padding-top: 15px;
+    line-height: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  // .catalog-footer__content
+  &__content {
+  }
+}
+.footer-catalog-list {
+  // .footer-catalog-list__list
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  // .footer-catalog-list__item
+  &__item {
+    border: 0.5px solid #ffffff;
+    padding: 5px 6px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+}
+.news-footer {
+  flex: 0 1 20%;
+  // .news-footer__title
+  &__title {
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  // .news-footer__content
+  &__content {
+  }
+}
+.footer-news {
+  // .footer-news__item
+  &__item {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  // .footer-news__date
+  &__date {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 0.5px solid #fff;
+    width: 38px;
+    height: 38px;
+  }
+  // .footer-news__text
+  &__text {
+    padding-left: 10px;
+  }
+}
+.storage-footer {
+  flex: 0 1 25%;
+  // .storage-footer__title
+  &__title {
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  // .storage-footer__content
+  &__content {
+  }
+}
+.footer-storage {
+  // .footer-storage__item
+  &__item {
+    margin-bottom: 12px;
+    position: relative;
+    // padding-left: 31px;
+    &:after {
+      content: '';
+      background-image: url(../img/footer-point.png);
+      background-repeat: no-repeat;
+      left: -20px;
+      top: 0;
+      width: 11px;
+      height: 16px;
+      position: absolute;
+    }
+  }
+}
+.bottom-footer {
+  text-align: center;
+  border: 1px solid #383f51;
+  background-color: #383f51;
+
+  ._container {
+  }
+  // .bottom-footer__block
+  &__block {
+    display: flex;
+    background-color: #2b2d42;
+    max-width: 1058px;
+    margin: 0px auto;
+    justify-content: space-around;
+    // padding: 17px 15px 16px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  // .bottom-footer__order
+  &__order {
+    flex: 0 1 33.333%;
+    // font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  // .bottom-footer__phone
+  &__phone {
+    // font-family: Nunito Sans;
+    flex: 0 1 33.333%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #ff5e66;
+    height: 100%;
+
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  // .bottom-footer__adres
+  &__adres {
+    flex: 0 1 33.333%;
+    // font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  // .bottom-footer__copy
+  &__copy {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
